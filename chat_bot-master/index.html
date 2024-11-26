@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Chat Bot</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='script.js'></script>
+</head>
+<body>
+    
+    <div id="chatBox">
+
+        <!-- heading -->
+        <div id="heading" >
+            Chat Bot
+        </div>
+
+        <!-- box where messages are displayed -->
+        <div id="msgBox" class="boxes">
+            
+            <!-- list that stores chat history -->
+            <ul id="msgList">
+                <li class="botMsg">Welcome to Chat Bot!!<br><br> What would you like to do? 
+                    <ol>
+                        <li>Check the news</li>
+                        <li>Get weather updates</li>
+                        <li>Read a fun fact</li>
+                        <li>Read a joke</li>
+                    </ol>
+                    <br>
+                    Enter an option number(1 to 4) to continue
+                    <br><br>
+                    You can enter ' # ' anytime see this menu again.
+                </li>
+            </ul>
+
+        </div>
+
+        <!-- text input box -->
+        <!-- <textarea name="typebox" id="typebox" class="boxes" placeholder="Enter your message"  rows="2"></textarea> -->
+        <input type="text" id="typeBox" class="boxes" placeholder="Enter your message">
+        <input type="button" id="sendBtn" class="boxes" value="Send">
+    </div>
+
+</body>
+</html>
